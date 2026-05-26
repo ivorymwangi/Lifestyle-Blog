@@ -1,0 +1,30 @@
+body{
+    font-family:'Pinyon Script',sans-serif;
+    font-weight: 100%;
+    background-color:rgb(252, 245, 246);
+    color: rgb(148, 145, 145);
+}
+h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
+  font-family: 'Source Serif 4', serif;
+}
+.navbar {
+  background-color: rgb(250, 238, 239);
+  border-bottom: 1px solid rgb(255, 244, 245);
+}
+.navbar-brand {
+  font: size 100px;;
+  color: rgb(124, 124, 124) !important;
+  font-style:"cursive";
+}
+.nav-link {
+  color: rgb(247, 247, 247)!important;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #fcf2f4 !important;
+}
+.hero {
+  background: linear-gradient( rgb(252, 245, 245),rgb(255, 255, 255));
+}
