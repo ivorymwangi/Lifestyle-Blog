@@ -73,9 +73,9 @@ h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
 
 .section-title {
   font-style: italic;
-  color: #cfc3c3;
+  color: #a4a5a0;
   margin-bottom: 3rem;
-  font-size: 2rem;
+  font-size: 2re;
 }
 
 .blog-card {
@@ -109,52 +109,50 @@ h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
 }
 
 .card-title {
-  color: #7a4a5a;
-  font-size: 1.1rem;
+  color:rgb(128, 92, 98);
+  font-size: 20px;
   margin-bottom: 0.6rem;
 }
 
 .card-text {
-  font-size: 0.9rem;
-  color: #b08090;
+  font-size:23px;
+  color: rgb(141, 136, 136);
   line-height: 1.7;
 }
 
 .read-more {
-  color: #c97c8e;
-  font-size: 0.85rem;
+  color: rgb(184, 109, 122);
+  font-size:20px;
   text-decoration: none;
   letter-spacing: 0.05em;
 }
 
 .read-more:hover {
-  color: #7a4a5a;
+  color: #7a4a5c;
 }
 
-/* ===== FOOTER ===== */
 footer {
-  background-color: #fce4ec;
+  background-color: #faeaef;
   border-top: 1px solid #f5c0cc;
 }
 
 .footer-brand {
-  font-size: 1.4rem;
-  color: #c97c8e;
+  font-size:30px;
+  color: #817f7f;
   font-style: italic;
   margin-bottom: 0.3rem;
 }
 
 .footer-sub {
-  font-size: 0.85rem;
-  color: #b08090;
+  font-size:30px;
+  color: #aa828f;
 }
 
 .footer-links a {
   color: #9b6b78;
-  text-decoration: none;
-  font-size: 0.85rem;
+  text-decoration: n;
 }
 
 .footer-links a:hover {
-  color: #c97c8e;
+  color: #e7dadd;
 }
