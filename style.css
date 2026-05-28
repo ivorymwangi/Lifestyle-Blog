@@ -1,6 +1,6 @@
 body{
     font-family:'Great Vibes',sans-serif;
-    font-weight: 100%;
+    font-weight: 300;
     background-color:rgb(252, 245, 246);
     color: rgb(148, 145, 145);
 }
@@ -12,49 +12,52 @@ h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
   border-bottom: 1px solid rgb(250, 221, 223);
 }
 .navbar-brand {
-  font-size: 35px;
-  color: rgb(95, 95, 95) !important;
+  font-size: 25px;
+  color: rgb(85, 85, 85) !important;
   font-style:"Source Serif 4";
 }
 .nav-link {
-  color: rgb(114, 114, 114)!important;
-  font-size: 20px;
+  color: rgb(97, 26, 26)!important;
+  font-size:12px;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 .nav-link:hover {
   color: #fcf2f4 !important;
 }
 .hero {
   background-color: rgb(252, 245, 246);
+  padding: 10px 15px;
 }
 .hero-tag {
-  font: size 100px;
+  font-size:25px;
   text-transform: uppercase;
   color: pink;
   margin-bottom: 10px;
+  letter-spacing: 0.15em;
 }
 
 .hero h1 {
-  font-size:50px;
+  font-size:25px;
   color: #424041;
   margin-bottom: 1.2rem;
   font-style: italic;
 }
 
 .hero-sub {
-  font-size:50px;
-  color: #ac8a95;
+  font-size:1.3rem;
+  color: #55333e;
   margin-bottom: 2rem;
-  font-weight: 300;
 }
 
 .btn-pink {
+
   background-color: #e8a0b0;
   color: white;
   border: none;
   border-radius: 50px;
   padding: 12px 32px;
-  font: size 100px;
+  font-size:10px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-decoration: none;
@@ -73,13 +76,13 @@ h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
 
 .section-title {
   font-style: italic;
-  color: #a4a5a0;
+  color: #704242;
   margin-bottom: 3rem;
-  font-size: 2re;
+  font-size: 2rem;
 }
 
 .blog-card {
-  border: 1px solid #f5d5d5;
+  border: 1px solid #f7dada;
   border-radius: 16px;
   overflow: hidden;
   background: white;
@@ -92,16 +95,16 @@ h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
 }
 
 .blog-card .card-img-top {
-  height: 220px;
+  height: 200px;
   object-fit: cover;
 }
 
 .category-tag {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #c97c8e;
-  background: #fce4ec;
+  color: #421717;
+  background: #f8dee7;
   padding: 4px 12px;
   border-radius: 50px;
   display: inline-block;
@@ -109,20 +112,20 @@ h1, h2, h3, h4, h5, .navbar-brand, .footer-brand {
 }
 
 .card-title {
-  color:rgb(128, 92, 98);
+  color:rgb(90, 42, 50);
   font-size: 20px;
   margin-bottom: 0.6rem;
 }
 
 .card-text {
-  font-size:23px;
-  color: rgb(141, 136, 136);
+  font-size:1.1 rem;
+  color: rgb(131, 104, 104);
   line-height: 1.7;
 }
 
 .read-more {
   color: rgb(184, 109, 122);
-  font-size:20px;
+  font-size:1rem;
   text-decoration: none;
   letter-spacing: 0.05em;
 }
@@ -137,20 +140,22 @@ footer {
 }
 
 .footer-brand {
-  font-size:30px;
-  color: #817f7f;
+  font-size:1 rem;
+  color: #634949;
   font-style: italic;
   margin-bottom: 0.3rem;
 }
 
 .footer-sub {
   font-size:30px;
-  color: #aa828f;
+  color: #703d3d;
 }
 
 .footer-links a {
   color: #9b6b78;
-  text-decoration: n;
+  text-decoration: none;
+  margin: 08px;
+  font-size:1.1rem;
 }
 
 .footer-links a:hover {

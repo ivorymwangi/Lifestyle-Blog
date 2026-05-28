@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Belle Vie — A Lifestyle Blog</title>
+    <title> A Lifestyle Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -15,45 +15,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-1g py-3">
-        <div class="container fluid">
+    <nav class="navbar navbar-expand-lg py-3">
+        <div class="container">
             <a class="navbar-brand" href="#">Ivory's Lifestyle Blog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navMenu" >               
-              <a href="#" class="nav-link active">Home</a>
-              <a href="#" class="nav-link active">Beauty</a>
-              <a href="#" class="nav-link active">Wellness</a>
-              <a href="#" class="nav-link active">Style</a>
-              <a href="#" class="nav-link active">About</a>
+            <div class="collapse navbar-collapse" id="navMenu">
+             <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="beauty.html">Beauty</a></li>
+              <li class="nav-item"><a class="nav-link" href="wellness.html">Wellness</a></li>
+              <li class="nav-item"><a class="nav-link" href="style-article.html">Style</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+             </ul>
            </div>
+            
         </div>
     </nav>
 
   <section class="hero text-center">
     <div class="container">
-    <p>Welcome to the blog</p>
-    <h1>Embrace Your Feminity</h1>
-    <p>A journal of beauty, softness, and intentional living.</p>
-    <a href="#" class="btn btn-secondary">Read the Latest</a>
+     <p>Welcome to the blog</p>
+     <h1>Embrace Your Feminity</h1>
+     <p class="hero-sub">A journal of beauty, softness, and intentional living.</p>
+     <a href="#" class="btn btn-secondary">Read the Latest</a>
     </div>
   </section>
   <section class="cards-section">
     <div class="container">
       <div style="justify-items: center;">
-        <h2>Latest Stories</h2>
+        <h2 class="section-title">Latest Stories</h2>
 
         <div class="row g-4">
 
           <div class="col-md-4">
             <div class="card blog-card h-100">
-              <img src="images/beauty2.jpg" class="cade-img-top" alt="Beauty">
+              <img src="images/beauty2.jpg" class="card-img-top" alt="Beauty">
               <div class="card-body">
                 <span class="category-tag">Beauty</span>
                 <h5 class="card-title">The Skincare Routine That Changed My Skin</h5>
                 <p class="card-text">Glowing skin is always in style. Here's what I've been reaching for every evening...</p>
-                <a href="#" class="read-more">Read More →</a>
+                <a href="beauty.html" class="read-more">Read More →</a>
               </div>
             </div>
           </div>
@@ -65,7 +68,7 @@
                <span class="category-tag">Style</span>
                <h5 class="card-title">Dressing for the Woman You're Becoming</h5>
                <p class="card-text">Your wardrobe is a form of self expression. These are the pieces I keep returning to...</p>
-               <a href="#" class="read-more">Read More →</a>
+               <a href="style-article.html" class="read-more">Read More →</a>
              </div>
             </div>
           </div>
@@ -77,11 +80,11 @@
              <span class="category-tag">Wellness</span>
              <h5 class="card-title">My Morning Ritual for a Soft, Intentional Day</h5>
              <p class="card-text">Starting your morning with intention is the foundation of a feminine lifestyle...</p>
-             <a href="#" class="read-more">Read More →</a>
-             </div>
+             <a href="wellness.html" class="read-more">Read More →</a>
+            </div>
           </div>
         </div>
-      </div>
+       </div>
     </div> 
   </section>
 
